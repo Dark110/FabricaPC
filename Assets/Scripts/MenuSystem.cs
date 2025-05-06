@@ -10,6 +10,13 @@ public class MenuSystem : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
 
     }
+   
+    public void controles ()
+    {
+        SceneManager.LoadScene("Controles");
+    }   
+
+
     public void Salir()
     {
        Application.Quit();
